@@ -6,7 +6,7 @@
 </head>
 <body>
 <form>
-	<div class="right">
+	<div class="left">
 		<label>
 	        <span>FIRST NAME</span>
 	        <input type="text" />
@@ -37,7 +37,7 @@
 	    </label> 
     </div>
 
-    <div class="left">
+    <div class="middle">
 	    <label>
 	        <span>PHONE NUMBER</span>
 	        <input type="tel"/>
@@ -69,38 +69,40 @@
 				<input type="radio" name="group1" value="Cheese">NUCLEAR HAIRSPRAY<br>
 		</label>
 	</div>
-	<label>
-       	<span>TYPE OF TALENT</span>
-       	<select name="Choose a talent">
-		  <option value="value1">Value 1</option> 
-		  <option value="value2" selected>Value 2</option>
-		  <option value="value3">Value 3</option>
-		</select>
-    </label>
+	<div class="right">
+		<label>
+	       	<span>TYPE OF TALENT</span>
+	       	<select name="Choose a talent">
+			  <option value="value1">Value 1</option> 
+			  <option value="value2" selected>Value 2</option>
+			  <option value="value3">Value 3</option>
+			</select>
+	    </label>
 
-    <label class="radio">
-    	<span class="gadget">FAVORITE DRINKS</span>
-    	<input type="checkbox" name="option1" value="Milk"> ORANGE JUICE<br>
-		<input type="checkbox" name="option2" value="Butter" checked> COFFEE<br>
-		<input type="checkbox" name="option3" value="Cheese"> SODA<br>
-		<input type="checkbox" name="option2" value="Butter" checked> BEER<br>
-		<input type="checkbox" name="option3" value="Cheese"> WINE<br>
-	</label>
+	    <label class="radio">
+	    	<span class="gadget">FAVORITE DRINKS</span>
+	    	<input type="checkbox" name="option1" value="Milk"> ORANGE JUICE<br>
+			<input type="checkbox" name="option2" value="Butter" checked> COFFEE<br>
+			<input type="checkbox" name="option3" value="Cheese"> SODA<br>
+			<input type="checkbox" name="option2" value="Butter" checked> BEER<br>
+			<input type="checkbox" name="option3" value="Cheese"> WINE<br>
+		</label>
 
-	<label>
-        <span>SPECIAL POWER</span>
-        <input type="text"/>
-    </label>
+		<label>
+	        <span>SPECIAL POWER</span>
+	        <input type="text"/>
+	    </label>
 
-    <label>
-        <span>WEAPON OF CHOISE</span>
-        <input type="text"/>
-    </label>
+	    <label>
+	        <span>WEAPON OF CHOISE</span>
+	        <input type="text"/>
+	    </label>
 
-    <label>
-        <span>COMMENTS</span>
-        <textarea name="textarea" rows="7" cols="50"></textarea>
-    </label>
+	    <label>
+	        <span>COMMENTS</span>
+	        <textarea name="textarea" rows="7" cols="50"></textarea>
+	    </label>
+    </div>
 
     <div class="bottom">
     	<button name="button">SEND YOUR DATA</button>
