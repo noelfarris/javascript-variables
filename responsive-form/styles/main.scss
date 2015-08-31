@@ -1,0 +1,98 @@
+@import 'normalize.css';
+
+form {
+	background-color: #4EA3D8;
+	padding-left: (117/16)*1em;
+	padding-right: (117/16)*1em;
+	padding-top: 4em;
+	box-sizing: border-box;
+}
+label {
+	margin-top: 3em;
+	display: block;
+}
+span {
+	color: white;
+	font-family: sans-serif;
+	font-size: 2em;
+}
+
+input {
+	background-color: #4EA3D8;
+	border: .1em solid white;
+	color: #1B6899;
+	display: block;
+	width: 100%;
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight: lighter;
+	padding: .5em;
+	box-sizing: border-box;
+	margin-top: .2em;
+}
+
+select {
+	background-color: #4EA3D8;
+	border-radius: 10%;
+	border: .05em solid #A6A6A6;
+	width: 100%;
+	color: white;
+	font-size: 2em;
+	margin-top: .2em;
+}
+
+textarea {
+	background-color: #4EA3D8;
+	border: .1em solid white;
+	color: #1B6899;
+	display: block;
+	width: 100%;
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight: lighter;
+	box-sizing: border-box;
+	padding: .5em;
+	margin-top: .2em;
+}
+
+.gadget {
+	font-size: 1em;
+}
+
+.radio {
+	color: white;
+	font-family: sans-serif;
+	font-size: 2em;
+	padding-bottom: 1.5em;
+}
+
+.bottom {
+	background-color: #4EA3D8;
+	padding: 5em;
+}
+
+button {
+	background-color: #10689A;
+	height: (50/16)*1em;
+	width: (190/16)*1em;
+	color: white;
+	border-radius: 3%;
+	font-size: 36px;
+	border: solid #10689A;
+	display: block;
+	margin: 0 auto;
+}
+
+/*@media screen and (min-width: 768px) {
+	.left {
+		float: left;
+		width: 50%;
+		padding-left: (117/16)*1em;
+		box-sizing: border-box;
+	}
+
+	.right {
+		float: left;
+		width: 50%;
+	}
+}*/
