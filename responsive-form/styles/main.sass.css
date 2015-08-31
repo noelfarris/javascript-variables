@@ -74,16 +74,12 @@ button {
   display: block;
   margin: 0 auto; }
 
-/*@media screen and (min-width: 768px) {
-	.left {
-		float: left;
-		width: 50%;
-		padding-left: (117/16)*1em;
-		box-sizing: border-box;
-	}
-
-	.right {
-		float: left;
-		width: 50%;
-	}
-}*/
+@media screen and (min-width: 768px) {
+  .left {
+    float: left;
+    width: 50%;
+    padding-left: 7.3125em;
+    box-sizing: border-box; }
+  .right {
+    float: left;
+    width: 50%; } }
