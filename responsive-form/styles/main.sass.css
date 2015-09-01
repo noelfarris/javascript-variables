@@ -75,7 +75,8 @@ textarea {
 .bottom {
   background-color: #4EA3D8;
   padding-top: 2.5em;
-  padding-bottom: 2.5em; }
+  padding-bottom: 2.5em;
+  margin-right: -.1em; }
 
 button {
   background-color: #10689A;
@@ -83,6 +84,7 @@ button {
   width: 11.25em;
   color: white;
   border-radius: 3%;
+  border: solid #10689A;
   font-size: 18px;
   display: block;
   margin: 0 auto; }
